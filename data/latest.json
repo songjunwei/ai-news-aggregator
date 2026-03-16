@@ -1,56 +1,411 @@
-[
-  {
-    "id": "test-001",
-    "title": "OpenAI 发布 GPT-5 模型",
-    "summary": "OpenAI 正式发布了下一代大语言模型 GPT-5，在多个基准测试中表现优异。",
-    "content": "OpenAI 今日正式发布 GPT-5 模型...",
-    "source": "Serper",
-    "sourceUrl": "https://example.com/gpt5",
-    "publishedAt": "2026-03-16T10:00:00Z",
-    "category": "llm",
-    "tags": [
-      "openai",
-      "gpt5",
-      "llm"
-    ],
-    "author": "Test Author",
-    "views": 100,
-    "isFeatured": true
+{
+  "date": "2026-03-16",
+  "total": 85,
+  "sources": {
+    "hackernews": 61,
+    "arxiv": 24
   },
-  {
-    "id": "test-002",
-    "title": "Google DeepMind 推出新AI系统",
-    "summary": "Google DeepMind 发布了全新的AI系统，在蛋白质折叠预测方面取得突破。",
-    "content": "Google DeepMind 的最新研究成果...",
-    "source": "HackerNews",
-    "sourceUrl": "https://example.com/deepmind",
-    "publishedAt": "2026-03-15T14:30:00Z",
-    "category": "ml_research",
-    "tags": [
-      "google",
-      "deepmind",
-      "protein"
-    ],
-    "author": "Researcher",
-    "views": 50,
-    "isFeatured": false
+  "processing": {
+    "duplicates_removed": 0,
+    "summaries_generated": 85,
+    "categories_assigned": 85
   },
-  {
-    "id": "test-003",
-    "title": "AI创业公司获新一轮融资",
-    "summary": "多家AI创业公司宣布获得新一轮融资，总金额超过10亿美元。",
-    "content": "AI创业热潮持续...",
-    "source": "Reddit",
-    "sourceUrl": "https://example.com/funding",
-    "publishedAt": "2026-03-14T09:15:00Z",
-    "category": "funding",
-    "tags": [
-      "startup",
-      "funding",
-      "ai"
-    ],
-    "author": "Investor",
-    "views": 75,
-    "isFeatured": false
-  }
-]
+  "news": [
+    {
+      "id": "42827913",
+      "title": "Ask HN: How to learn AI from first principles?",
+      "summary": "Ask HN: How to learn AI from first principles?",
+      "content": "Ask HN: How to learn AI from first principles?",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=42827913",
+      "publishedAt": "2025-01-26T05:20:15.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "discussion",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "HardikVala",
+      "views": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "14019480",
+      "title": "Ask HN: AI winter coming in next few years for AGI research?",
+      "summary": "Ask HN: AI winter coming in next few years for AGI research?",
+      "content": "Ask HN: AI winter coming in next few years for AGI research?",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=14019480",
+      "publishedAt": "2017-04-02T22:47:50.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "discussion",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "ai_future",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "44426643",
+      "title": "Apple weighs using Anthropic or OpenAI to power Siri",
+      "summary": "Apple weighs using Anthropic or OpenAI to power Siri",
+      "content": "Apple weighs using Anthropic or OpenAI to power Siri",
+      "source": "HackerNews",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2025-06-30/apple-weighs-replacing-siri-s-ai-llms-with-anthropic-claude-or-openai-chatgpt",
+      "publishedAt": "2025-06-30T18:56:40.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "mfiguiere",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "47353981",
+      "title": "Show HN: LogClaw – Open-source AI SRE that auto-creates tickets from logs",
+      "summary": "Show HN: LogClaw – Open-source AI SRE that auto-creates tickets from logs",
+      "content": "Show HN: LogClaw – Open-source AI SRE that auto-creates tickets from logs",
+      "source": "HackerNews",
+      "sourceUrl": "https://logclaw.ai",
+      "publishedAt": "2026-03-12T17:06:42.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "Robelkidin",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "42078536",
+      "title": "Launch HN: Codebuff (YC F24) – CLI tool that writes code for you",
+      "summary": "Launch HN: Codebuff (YC F24) – CLI tool that writes code for you",
+      "content": "Launch HN: Codebuff (YC F24) – CLI tool that writes code for you",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=42078536",
+      "publishedAt": "2024-11-07T17:06:28.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "jahooma",
+      "views": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "40947415",
+      "title": "Show HN: Dropbase AI – A Prompt-Based Python Web App Builder",
+      "summary": "Show HN: Dropbase AI – A Prompt-Based Python Web App Builder",
+      "content": "Show HN: Dropbase AI – A Prompt-Based Python Web App Builder",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/DropbaseHQ/dropbase",
+      "publishedAt": "2024-07-12T17:08:19.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "jimmyechan",
+      "views": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "44225186",
+      "title": "Show HN: Mcp-hacker-news – An MCP server for accessing Hacker News data via LLMs",
+      "summary": "Show HN: Mcp-hacker-news – An MCP server for accessing Hacker News data via LLMs",
+      "content": "Show HN: Mcp-hacker-news – An MCP server for accessing Hacker News data via LLMs",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/paabloLC/mcp-hacker-news",
+      "publishedAt": "2025-06-09T15:00:14.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "pablolc",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "36117969",
+      "title": "Ask HN: If you use an LLM, which one do you use?",
+      "summary": "Ask HN: If you use an LLM, which one do you use?",
+      "content": "Ask HN: If you use an LLM, which one do you use?",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=36117969",
+      "publishedAt": "2023-05-29T20:49:18.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "discussion",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "zopper",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "42711991",
+      "title": "Show HN: QwQ-32B APIs – o1 like reasoning at 1% the cost",
+      "summary": "Show HN: QwQ-32B APIs – o1 like reasoning at 1% the cost",
+      "content": "Show HN: QwQ-32B APIs – o1 like reasoning at 1% the cost",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=42711991",
+      "publishedAt": "2025-01-15T15:29:12.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "ozgune",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "44949395",
+      "title": "Show HN: Pluely – open-source alternative to Cluely (~10MB, Always On Display)",
+      "summary": "Show HN: Pluely – open-source alternative to Cluely (~10MB, Always On Display)",
+      "content": "Show HN: Pluely – open-source alternative to Cluely (~10MB, Always On Display)",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/iamsrikanthnani/pluely",
+      "publishedAt": "2025-08-19T08:06:42.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "truly_sn",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "43523152",
+      "title": "Show HN: Agent – A Local Computer-Use Operator for macOS",
+      "summary": "Show HN: Agent – A Local Computer-Use Operator for macOS",
+      "content": "Show HN: Agent – A Local Computer-Use Operator for macOS",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/trycua/cua",
+      "publishedAt": "2025-03-30T10:57:07.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "f-trycua",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "44413921",
+      "title": "Show HN: A tool to benchmark LLM APIs (OpenAI, Claude, local/self-hosted)",
+      "summary": "Show HN: A tool to benchmark LLM APIs (OpenAI, Claude, local/self-hosted)",
+      "content": "Show HN: A tool to benchmark LLM APIs (OpenAI, Claude, local/self-hosted)",
+      "source": "HackerNews",
+      "sourceUrl": "https://llmapitest.com/",
+      "publishedAt": "2025-06-29T15:33:57.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "mrqjr",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "43485113",
+      "title": "Show HN: Open Responses – Drop-In OpenAI Responses API Alternative for Any LLM",
+      "summary": "Show HN: Open Responses – Drop-In OpenAI Responses API Alternative for Any LLM",
+      "content": "Show HN: Open Responses – Drop-In OpenAI Responses API Alternative for Any LLM",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=43485113",
+      "publishedAt": "2025-03-26T18:15:36.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "ishita159",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "45054040",
+      "title": "Launch HN: Dedalus Labs (YC S25) – Vercel for Agents",
+      "summary": "Launch HN: Dedalus Labs (YC S25) – Vercel for Agents",
+      "content": "Launch HN: Dedalus Labs (YC S25) – Vercel for Agents",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=45054040",
+      "publishedAt": "2025-08-28T16:22:02.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "windsor",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "43652033",
+      "title": "Ask HN: Why Is Every Company Building Own Agent Framework? Isn't One Enough?",
+      "summary": "Ask HN: Why Is Every Company Building Own Agent Framework? Isn't One Enough?",
+      "content": "Ask HN: Why Is Every Company Building Own Agent Framework? Isn't One Enough?",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=43652033",
+      "publishedAt": "2025-04-11T09:28:23.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "discussion",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "notaiagent",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "40903806",
+      "title": "Ask HN: ChatGPT Plus now showing captchas constantly?",
+      "summary": "Ask HN: ChatGPT Plus now showing captchas constantly?",
+      "content": "Ask HN: ChatGPT Plus now showing captchas constantly?",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=40903806",
+      "publishedAt": "2024-07-08T09:02:35.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "discussion",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "Topfi",
+      "views": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "41203306",
+      "title": "Show HN: LLM-aided OCR – Correcting Tesseract OCR errors with LLMs",
+      "summary": "Show HN: LLM-aided OCR – Correcting Tesseract OCR errors with LLMs",
+      "content": "Show HN: LLM-aided OCR – Correcting Tesseract OCR errors with LLMs",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/Dicklesworthstone/llm_aided_ocr",
+      "publishedAt": "2024-08-09T16:28:39.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "eigenvalue",
+      "views": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "35042836",
+      "title": "Launch HN: Vellum (YC W23) – Dev Platform for LLM Apps",
+      "summary": "Launch HN: Vellum (YC W23) – Dev Platform for LLM Apps",
+      "content": "Launch HN: Vellum (YC W23) – Dev Platform for LLM Apps",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=35042836",
+      "publishedAt": "2023-03-06T16:20:38.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "noaflaherty",
+      "views": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "46588905",
+      "title": "Show HN: Agent-of-empires: OpenCode and Claude Code session manager",
+      "summary": "Show HN: Agent-of-empires: OpenCode and Claude Code session manager",
+      "content": "Show HN: Agent-of-empires: OpenCode and Claude Code session manager",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/njbrake/agent-of-empires",
+      "publishedAt": "2026-01-12T14:23:07.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "river_otter",
+      "views": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "47367526",
+      "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "summary": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "content": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "source": "HackerNews",
+      "sourceUrl": "https://github.com/Compresr-ai/Context-Gateway",
+      "publishedAt": "2026-03-13T17:58:22.000Z",
+      "category": "uncategorized",
+      "tags": [
+        "story",
+        "showcase",
+        "ai",
+        "tech",
+        "hackernews"
+      ],
+      "author": "ivzak",
+      "views": 0,
+      "isFeatured": false
+    }
+  ]
+}
