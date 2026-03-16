@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"feat: 完成AI资讯聚合站基础功能:*)"
+    ]
+  }
+}

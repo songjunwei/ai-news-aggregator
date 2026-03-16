@@ -1,23 +1,38 @@
 {
   "name": "ai-news-aggregator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "AI资讯聚合站 - 每日获取全球AI前沿资讯",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fetch-news": "node .claude/skills/fetch-ai-news/fetch-sources.js",
+    "fetch-news:force": "node .claude/skills/fetch-ai-news/fetch-sources.js --force",
+    "deploy": "node .claude/skills/publish-to-github/publisher.js"
   },
   "dependencies": {
     "vue": "^3.5.29",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@octokit/rest": "^20.0.2",
     "@vitejs/plugin-vue": "^6.0.4",
+    "terser": "^5.46.0",
     "vite": "^7.3.1",
     "vite-plugin-vue-devtools": "^8.0.6"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "keywords": [
+    "ai",
+    "news",
+    "aggregator",
+    "vue3",
+    "vite"
+  ],
+  "author": "AI News Aggregator",
+  "license": "MIT"
 }

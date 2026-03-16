@@ -1,72 +1,26 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import { RouterLink, RouterView } from 'vue-router'
-import NewsList from './components/NewsList.vue'
-import SearchBar from './components/SearchBar.vue'
-import FilterPanel from './components/FilterPanel.vue'
-import { useNewsData } from './composables/useNewsData'
-
-const { news, loading, error, loadNews } = useNewsData()
-const searchQuery = ref('')
-const selectedCategory = ref('all')
-const selectedSource = ref('all')
-
-onMounted(() => {
-  loadNews()
-})
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <div class="header-content">
-      <h1 class="site-title">
-        <RouterLink to="/">AI资讯聚合站</RouterLink>
-      </h1>
-      <p class="site-subtitle">每日获取全球AI前沿资讯</p>
-    </div>
-  </header>
-
-  <main class="main-content">
-    <div class="container">
-      <div class="sidebar">
-        <FilterPanel
-          v-model:category="selectedCategory"
-          v-model:source="selectedSource"
-        />
+  <div id="app">
+    <header>
+      <div class="header-content">
+        <h1 class="site-title">
+          <RouterLink to="/">AI资讯聚合站</RouterLink>
+        </h1>
+        <p class="site-subtitle">每日获取全球AI前沿资讯</p>
       </div>
+    </header>
 
-      <div class="content-area">
-        <div class="search-section">
-          <SearchBar v-model="searchQuery" />
-        </div>
+    <main class="main-content">
+      <RouterView />
+    </main>
 
-        <div class="news-section">
-          <div v-if="loading" class="loading-state">
-            <div class="spinner"></div>
-            <p>正在加载资讯...</p>
-          </div>
-
-          <div v-else-if="error" class="error-state">
-            <p>❌ 加载失败: {{ error }}</p>
-            <button @click="loadNews">重试</button>
-          </div>
-
-          <div v-else class="news-content">
-            <NewsList
-              :news="news"
-              :search-query="searchQuery"
-              :selected-category="selectedCategory"
-              :selected-source="selectedSource"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <p>&copy; 2026 AI资讯聚合站 | 每日更新全球AI前沿资讯</p>
-  </footer>
+    <footer class="site-footer">
+      <p>&copy; 2026 AI资讯聚合站 | 每日更新全球AI前沿资讯</p>
+    </footer>
+  </div>
 </template>
 
 <style>
@@ -134,96 +88,11 @@ header {
   padding: 2rem 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  gap: 2rem;
-}
-
-.sidebar {
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: var(--shadow);
-  height: fit-content;
-}
-
-.content-area {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.search-section {
-  background: white;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: var(--shadow);
-}
-
-.news-section {
-  background: white;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  min-height: 400px;
-}
-
-.loading-state,
-.error-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
-}
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #f3f3f3;
-  border-top: 4px solid var(--primary-color);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.error-state button {
-  margin-top: 1rem;
-  padding: 0.5rem 1.5rem;
-  background: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .site-footer {
   background: var(--dark-bg);
   color: white;
   text-align: center;
   padding: 1.5rem 0;
   margin-top: auto;
-}
-
-@media (max-width: 768px) {
-  .container {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .sidebar {
-    order: 2;
-  }
-
-  .content-area {
-    order: 1;
-  }
 }
 </style>
