@@ -3,7 +3,11 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"feat: 完成AI资讯聚合站基础功能:*)"
+      "Bash(git commit -m \"feat: 完成AI资讯聚合站基础功能:*)",
+      "Bash(npx vite:*)",
+      "Bash(rm -rf ./*)",
+      "Bash(cp -r ../dist/* .)",
+      "Bash(cp ../dist/.nojekyll .)"
     ]
   }
 }
