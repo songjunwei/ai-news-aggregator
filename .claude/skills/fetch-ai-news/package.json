@@ -1,0 +1,16 @@
+{
+  "name": "fetch-ai-news-skill",
+  "version": "1.0.0",
+  "description": "AI资讯数据获取技能",
+  "main": "fetch-sources.js",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "scripts": {
+    "test": "node --test *.test.js"
+  },
+  "keywords": ["ai", "news", "claude", "skill"],
+  "author": "AI News Aggregator",
+  "license": "MIT"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "test-001",
+    "title": "OpenAI 发布 GPT-5 模型",
+    "summary": "OpenAI 正式发布了下一代大语言模型 GPT-5，在多个基准测试中表现优异。",
+    "content": "OpenAI 今日正式发布 GPT-5 模型...",
+    "source": "Serper",
+    "sourceUrl": "https://example.com/gpt5",
+    "publishedAt": "2026-03-16T10:00:00Z",
+    "category": "llm",
+    "tags": [
+      "openai",
+      "gpt5",
+      "llm"
+    ],
+    "author": "Test Author",
+    "views": 100,
+    "isFeatured": true
+  },
+  {
+    "id": "test-002",
+    "title": "Google DeepMind 推出新AI系统",
+    "summary": "Google DeepMind 发布了全新的AI系统，在蛋白质折叠预测方面取得突破。",
+    "content": "Google DeepMind 的最新研究成果...",
+    "source": "HackerNews",
+    "sourceUrl": "https://example.com/deepmind",
+    "publishedAt": "2026-03-15T14:30:00Z",
+    "category": "ml_research",
+    "tags": [
+      "google",
+      "deepmind",
+      "protein"
+    ],
+    "author": "Researcher",
+    "views": 50,
+    "isFeatured": false
+  },
+  {
+    "id": "test-003",
+    "title": "AI创业公司获新一轮融资",
+    "summary": "多家AI创业公司宣布获得新一轮融资，总金额超过10亿美元。",
+    "content": "AI创业热潮持续...",
+    "source": "Reddit",
+    "sourceUrl": "https://example.com/funding",
+    "publishedAt": "2026-03-14T09:15:00Z",
+    "category": "funding",
+    "tags": [
+      "startup",
+      "funding",
+      "ai"
+    ],
+    "author": "Investor",
+    "views": 75,
+    "isFeatured": false
+  }
+]
