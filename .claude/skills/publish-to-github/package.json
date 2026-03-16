@@ -1,0 +1,16 @@
+{
+  "name": "publish-to-github-skill",
+  "version": "1.0.0",
+  "description": "GitHub发布自动化技能",
+  "main": "publisher.js",
+  "type": "commonjs",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2"
+  },
+  "scripts": {
+    "start": "node publisher.js"
+  },
+  "keywords": ["github", "deploy", "pages"],
+  "author": "AI News Aggregator",
+  "license": "MIT"
+}

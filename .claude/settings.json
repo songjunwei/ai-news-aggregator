@@ -3,7 +3,22 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"feat: 完成AI资讯聚合站基础功能:*)"
+      "Bash(git commit -m \"feat: 完成AI资讯聚合站基础功能:*)",
+      "Bash(node /Users/songjunwei/develop/claude/ai-news-aggregator/.claude/skills/publish-to-github/publisher.js)",
+      "Bash(gh auth:*)",
+      "Bash(git config:*)",
+      "Bash(curl -s -H \"Authorization: token $GITHUB_TOKEN\" -H \"Accept: application/vnd.github.v3+json\" \"https://api.github.com/repos/songjunwei/ai-news-aggregator/pages\")",
+      "Bash(node -e \":*)",
+      "Bash(curl -sI \"https://songjunwei.github.io/ai-news-aggregator/\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/\")",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(cp -r dist/* .)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/songjunwei/develop/claude/ai-news-aggregator/.claude/skills/.claude/skills"
     ]
   }
 }
