@@ -6,17 +6,17 @@ const { log } = require('../utils/logger');
 const { callClaude } = require('../utils/claude-client');
 
 const CATEGORIES = [
-  'llm',           # 大语言模型
-  'ml_research',   # 机器学习研究
-  'nlp',           # 自然语言处理
-  'computer_vision', # 计算机视觉
-  'robotics',      # 机器人
-  'ai_ethics',     # AI伦理
-  'ai_tools',      # AI工具
-  'startup',       # 创业公司
-  'funding',       # 融资
-  'product',       # 产品发布
-  'trends'         # 趋势
+  'llm',           // 大语言模型
+  'ml_research',   // 机器学习研究
+  'nlp',           // 自然语言处理
+  'computer_vision', // 计算机视觉
+  'robotics',      // 机器人
+  'ai_ethics',     // AI伦理
+  'ai_tools',      // AI工具
+  'startup',       // 创业公司
+  'funding',       // 融资
+  'product',       // 产品发布
+  'trends'         // 趋势
 ];
 
 /**

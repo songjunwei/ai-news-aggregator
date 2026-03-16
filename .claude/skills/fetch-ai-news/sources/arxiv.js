@@ -7,12 +7,12 @@ const { log, error: logError } = require('../utils/logger');
 
 const ARXIV_API_URL = 'http://export.arxiv.org/api/query';
 const AI_CATEGORIES = [
-  'cs.AI',      # Artificial Intelligence
-  'cs.LG',      # Machine Learning
-  'cs.CL',      # Computation and Language (NLP)
-  'cs.CV',      # Computer Vision
-  'cs.RO',      # Robotics
-  'stat.ML'     # Machine Learning (Statistics)
+  'cs.AI',      // Artificial Intelligence
+  'cs.LG',      // Machine Learning
+  'cs.CL',      // Computation and Language (NLP)
+  'cs.CV',      // Computer Vision
+  'cs.RO',      // Robotics
+  'stat.ML'     // Machine Learning (Statistics)
 ];
 
 /**

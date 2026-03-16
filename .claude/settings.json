@@ -8,7 +8,30 @@
       "Bash(rm -rf ./*)",
       "Bash(cp -r ../dist/* .)",
       "Bash(cp ../dist/.nojekyll .)",
-      "Bash(git pull:*)"
+      "Bash(git pull:*)",
+      "Bash(node -e \":*)",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/index.html\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/assets/index-Cdhvhl8L.css\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/\" -H \"User-Agent: Mozilla/5.0\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/songjunwei/ai-news-aggregator/master/index.html\")",
+      "Bash(curl -s \"https://api.github.com/repos/songjunwei/ai-news-aggregator/contents/index-html\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/\" -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/\" -H \"Cache-Control: no-cache, no-store\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/assets/index-ZyVikT9J.js\")",
+      "Bash(curl -s \"https://songjunwei.github.io/ai-news-aggregator/\" -I)",
+      "Bash(git checkout:*)",
+      "Bash(skill: fetch-ai-news:*)",
+      "Bash(node fetch-sources.js --date 2026-03-16 --force --verbose)",
+      "Bash(find .. -path */public/data/* -name *.json)",
+      "Read(//Users/songjunwei/develop/claude/**)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/songjunwei/develop/claude/ai-news-aggregator/.claude/public/data",
+      "/Users/songjunwei/develop/claude/ai-news-aggregator/public/data"
     ]
   }
 }

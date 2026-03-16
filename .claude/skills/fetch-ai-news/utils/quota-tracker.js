@@ -11,19 +11,19 @@ const QUOTA_FILE = path.join(__dirname, '../../quota-tracker.json');
 // 默认配额配置
 const DEFAULT_QUOTAS = {
   serper: {
-    total: 2500,           # 总配额
-    used: 0,               # 已使用
+    total: 2500,           // 总配额
+    used: 0,               // 已使用
     lastReset: new Date().toISOString(),
-    resetPeriod: 'once'    # 一次性配额
+    resetPeriod: 'once'    // 一次性配额
   },
   reddit: {
-    total: 1000,           # 每日请求限制
+    total: 1000,           // 每日请求限制
     used: 0,
     lastReset: new Date().toISOString(),
     resetPeriod: 'daily'
   },
   hackernews: {
-    total: 10000,          # 实际无限制，设置安全上限
+    total: 10000,          // 实际无限制，设置安全上限
     used: 0,
     lastReset: new Date().toISOString(),
     resetPeriod: 'daily'
